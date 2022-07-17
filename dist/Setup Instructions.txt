@@ -1,0 +1,16 @@
+Step #01, prepare the pdfs
+----
+1- add the desired pdf files to serch in inside (pdfs) folder
+2- run setupData.exe
+
+Step #02, start your search
+----
+1- run SerchEngineCMD.exe
+2- Change the cmd font by going to the top of cmd frame, then click (right-click) -> then select Properties,
+-> then Font -> then select font type (Courier New) -> then select Ok. (this is to show arabic text correctly)
+3- Search for what you need
+4- app will provide you with page number, you can find it in (Search_File.pdf) in the app dir.
+
+
+
+Have fun :)
