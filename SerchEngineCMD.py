@@ -40,7 +40,7 @@ try:
 
 
         # Arabic search
-        for i in SM['question']:
+        for i in SM['Q']:
             string=str(i).split()
             matches=0  # sub result score
             matchFilter=[]
@@ -69,13 +69,13 @@ try:
             if matches>0:
                 resultCounter+=1
                 ## Result score, question, answer
-                ansList=[matches, correctArabicText(i),correctArabicText(SM['Answer'][counter])]
+                ansList=[matches, correctArabicText(i),correctArabicText(SM['A'][counter])]
                 sortedResultList.append(ansList)
 
                 if (matches>ResultScore):
                     ResultScore=matches
                     ResultString=i
-                    ResultAnswer=SM['Answer'][counter]
+                    ResultAnswer=SM['A'][counter]
             counter+=1
         
         
